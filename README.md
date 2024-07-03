@@ -37,6 +37,30 @@ Install the dev library
   sudo apt install libopencv-dev 
   ```
   
+  * Dynamixel SDK
+  
+ Download the Dynamixel SDK
+ ```sh
+ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+ ```
+ 
+ Go to the c++/build folder
+  ```sh
+ cd DynamixelSDK/c++/build/linux64
+ ```
+
+ Compile and install
+  ```sh
+ make
+ sudo make install
+ ```
+ 
+ Upgrade USB access privileges by aading your account to the dialout group
+   ```sh
+  sudo usermod -aG dialout <your_account_id>
+ ```
+ 
+
 ### Installation
 
 1. Clone the repo
