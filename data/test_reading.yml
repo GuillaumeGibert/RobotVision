@@ -1,0 +1,9 @@
+%YAML:1.0
+---
+FPS: 5
+Time: "Thu Nov 23 09:20:08 2023\n"
+Result: !!opencv-matrix
+   rows: 2
+   cols: 3
+   dt: f
+   data: [ 1., 0., 0., 0., 1., 0. ]
